@@ -1,0 +1,48 @@
+
+
+
+
+
+Tone ringer
+
+Tone ringer IC used to alert the user on an incoming call. usually this IC id connected to the line in which detects the alternating current when a call is incoming. After the detecttion of the incoming alternating current, the IC activates the buzzer as an indecation to the user
+
+The other method of connecting a tone ringer is trough the hook switch, as a hook switch is a 3 way switch, when the telephone is not in use the switch is connected to the tone ringer and the ringer will be active only at the instance where the telephone is not in use. when the telephone is in use the tone ringer will be disconnected and the line would be connected to the telephone speech IC.
+
+Dialer IC
+
+A dialer IC handles all the operations carried within the numberpad. a numberpad is defined as a table which consists of rows and column where each row and column contains a specific frequancy. As shown in figure below, assume that the user clicks number '2' from the dialpad, then the dial pad will emitt a combined frequancy of row 1 and column 2, which the dialer IC will detect as the specific frequancy for number 2. This frequancy change can be detected by the human ear aswell as the tone for each number is different.
+
+The dialer has two types of operation as dual tone multi frequancy (DTMF) and pulse dialer. Pluse dialer generates the number by rapidly connecting and disconnecting the telephone line which requires some time after the press of each button but DTMF instantly detect the number with accuracy hence all modern telephones uses a DTMF dialer
+
+Telephone speech IC
+
+A telephone speech IC is the device that controls the basic functions of a telephone, usually the IC amplifies the signal from the transmitetr and keeps communication with the headset and sends any signal transmitted by the microphone. Additionally when selecting the microphone and speacker changes the circuitary accordingly.
+
+Altium design
+
+Altium is the professional electronic circuit design software used by leading oraganizations.while carrying on with the design on altium i had to create the footprint and 3D models of the threee main ICs as these unpopilar IC s did have any footprint online. when designing footprints IPC foot print wizard supports in getting the correct footprint and physical dimensions of the IC but for the IC s which does not have a pre saved footprint, the normal footprint wizard has to be used.
+
+Management 
+
+When it comes to the management skills that i developed within my training period, financial management is the main skill that i gained as it is one of the main component in electronic circuit design. For the senario of designing the telephone in mass quantity TEA1067 Speech IC is 0.2 USD expensive than TEA1067T while both circuits have the configurations, this increment in 0.2 USD will be a loss of 6000 USD when perchasing 30000 units of the IC. Hence minute changes in price can have a significant impact on the budget when proceeding to mass production.
+
+Even when picking resisters for specific resistor value which does not contain exact resistor values in the market resistors must be placed in series and parallel to obtain the value, but when having these connections it is more economical if same resistor values are used more often.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
